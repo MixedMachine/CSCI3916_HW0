@@ -36,3 +36,5 @@ You will create a Postman collection and create a REST test within the project. 
     – Review the HTTP Headers in the Request and Response  
     – create text file headers.txt and describe each key value pair in the HTTP header in both request and response and
     check it in     
+# POSTMAN TEST
+[![Run in Postman](https://run.pstmn.io/button.svg)](https://app.getpostman.com/run-collection/deb2a436a1a1bcfea9cb?action=collection%2Fimport#?env%5BCSC3916_HW0_ENV%5D=W3sia2V5IjoiYm9va190aXRsZSIsInZhbHVlIjoiIiwiZW5hYmxlZCI6dHJ1ZSwidHlwZSI6ImFueSJ9LHsia2V5IjoiaWQiLCJ2YWx1ZSI6IiIsImVuYWJsZWQiOnRydWUsInR5cGUiOiJhbnkifV0=)
