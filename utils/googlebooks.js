@@ -12,7 +12,7 @@ module.exports = async (phrase) => {
     let customObject = {
             data:           results.data,
             status:         results.status,
-        statusText:         results.statusText,
+            statusText:     results.statusText,
             headers:        results.headers,
             requestHeader:  results.config.headers
     }
