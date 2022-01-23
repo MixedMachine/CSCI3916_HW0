@@ -1,0 +1,67 @@
+_______________________________________________________________________________
+GET /books/v1/volumes?q=Turing; HTTP/1.1
+_______________________________________________________________________________
+User-Agent: PostmanRuntime/7.29.0
+^ # Shows information on the client making the request
+
+Accept: */*
+^ # Informs the server about the types of data that can be sent back
+
+### of note Cache-Control header was not in my request like the video
+
+Postman-Token: afec2dc6-e180-48b1-a25a-fdc87484cff1
+^ # Custom token for security verification
+
+Host: www.googleapis.com
+^ # Host that the request is being sent to
+
+Accept-Encoding: gzip, deflate, br
+^ # Encoding algorithm that can be used on the response
+
+Connection: keep-alive
+^ # Controls whether the network connection stays open after current transaction
+
+
+_______________________________________________________________________________
+HTTP/1.1 200 OK
+_______________________________________________________________________________
+Content-Type: application/json; charset=UTF-8
+^ # The format of the content in the response body
+
+Vary: Origin
+^ # How to match request headers to determine cache usage
+
+Vary: X-Origin
+^ # How to match request headers to determine cache usage
+
+Vary: Referer
+^ # How to match request headers to determine cache usage
+
+Content-Encoding: gzip
+^ # The compression algorithm used
+
+Date: Sun, 23 Jan 2022 02:39:45 GMT
+^ # Datetime that the response message was generated
+
+Server: ESF
+^ # Information about the software used by the server to handle request
+
+Cache-Control: private
+^ # Directives for cache mechanisms
+
+X-XSS-Protection: 0
+^ # Determines cross-site scripting filtering
+
+X-Frame-Options: SAMEORIGIN
+^ # indicates how a browser should be allowed to render a page
+
+X-Content-Type-Options: nosniff
+^ # Disables MIME sniffing and forces browser to use the type given in Content-Type
+
+Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000,h3-Q050=":443"; ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443"; ma=2592000,quic=":443"; ma=2592000; v="46,43"
+^ # Alternate ways to reach this service
+     - <protocol-id>=<alt-authority>;
+     - ma=<max-age>;
+
+Transfer-Encoding: chunked
+^ # The form of encoding used to transfer the resource to the client
